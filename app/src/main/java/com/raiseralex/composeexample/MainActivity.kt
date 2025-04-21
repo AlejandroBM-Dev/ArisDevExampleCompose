@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
+import com.raiseralex.composeexample.components.MyNetworkImage
 import com.raiseralex.composeexample.ui.theme.ComposeExampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    MyComplexLayout(modifier = Modifier)
+                    MyNetworkImage(modifier = Modifier.fillMaxSize())
                 }
             }
         }
@@ -49,6 +50,6 @@ fun Greeting(
 @Composable
 fun GreetingPreview() {
     ComposeExampleTheme {
-        MyComplexLayout(modifier = Modifier.fillMaxSize())
+        MyNetworkImage(modifier = Modifier.fillMaxSize())
     }
 }

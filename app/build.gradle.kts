@@ -68,6 +68,10 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
+    //Coil
+    implementation("io.coil-kt.coil3:coil-compose:3.1.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
+
     implementation("androidx.constraintlayout:constraintlayout-compose:1.1.1")
 
     testImplementation("junit:junit:4.13.2")
