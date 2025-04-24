@@ -4,14 +4,16 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import com.raiseralex.composeexample.components.MyNetworkImage
+import com.raiseralex.composeexample.components.MyProgressBar
+import com.raiseralex.composeexample.components.MyProgressBarAdvanced
 import com.raiseralex.composeexample.ui.theme.ComposeExampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +26,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    MyNetworkImage(modifier = Modifier.fillMaxSize())
+                    // MyNetworkImage(modifier = Modifier.fillMaxSize())
+                    MyProgressBarAdvanced(modifier = Modifier)
                 }
             }
         }

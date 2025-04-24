@@ -72,6 +72,9 @@ dependencies {
     implementation("io.coil-kt.coil3:coil-compose:3.1.0")
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
 
+    //Lottie
+    implementation("com.airbnb.android:lottie-compose:6.6.6")
+
     implementation("androidx.constraintlayout:constraintlayout-compose:1.1.1")
 
     testImplementation("junit:junit:4.13.2")
